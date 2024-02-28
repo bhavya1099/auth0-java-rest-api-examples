@@ -22,6 +22,8 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     aotPlugins(platform("io.micronaut.platform:micronaut-platform:4.2.4"))
     aotPlugins("io.micronaut.security:micronaut-security-aot")
+    testImplementation("junit:junit:4.13")
+  testImplementation("org.mockito:mockito-core:3.11.2")
 }
 
 
