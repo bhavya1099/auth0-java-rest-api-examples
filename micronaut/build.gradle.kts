@@ -22,6 +22,9 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     aotPlugins(platform("io.micronaut.platform:micronaut-platform:4.2.4"))
     aotPlugins("io.micronaut.security:micronaut-security-aot")
+
+testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
+testImplementation("org.junit.platform:junit-platform-runner:1.8.2")
 }
 
 
