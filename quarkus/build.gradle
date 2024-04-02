@@ -15,6 +15,10 @@ dependencies {
     implementation 'io.quarkus:quarkus-arc'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+
+//dependency added by roostGPT
+testImplementation 'junit:junit:4.13.1'
+testImplementation 'org.mockito:mockito-core:3.11.2'
 }
 
 group 'com.okta.rest'
