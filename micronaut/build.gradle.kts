@@ -22,6 +22,10 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     aotPlugins(platform("io.micronaut.platform:micronaut-platform:4.2.4"))
     aotPlugins("io.micronaut.security:micronaut-security-aot")
+
+//dependency added by roostGPT
+testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
+testImplementation("org.mockito:mockito-core:4.1.0")
 }
 
 
