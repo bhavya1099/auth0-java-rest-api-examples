@@ -20,6 +20,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+//dependency added by roostGPT
+testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+testImplementation 'org.mockito:mockito-junit-jupiter:3.11.2'
 }
 
 tasks.named('test') {
