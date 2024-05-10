@@ -49,6 +49,15 @@ testImplementation("junit:junit:4.13.1")
 testImplementation("io.micronaut:micronaut-http-server-netty")
 testImplementation("io.micronaut:micronaut-http-client")
 testImplementation("io.micronaut:micronaut-security:1.2.0")
+
+//dependency added by roostGPT
+testImplementation("junit:junit:4.13.1")
+testImplementation("io.micronaut:micronaut-http-server-netty")
+testImplementation("io.micronaut:micronaut-http-client")
+testImplementation("io.micronaut:micronaut-security:1.2.0")
+testImplementation("io.micronaut:micronaut-http:1.2.0")
+testImplementation("io.micronaut:micronaut-security-annotations:1.2.0")
+testImplementation("io.micronaut:micronaut-security-rules:1.2.0")
 }
 
 
